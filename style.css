@@ -1,0 +1,228 @@
+:root {
+  --main-color: #00000099;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.landing-page-hero {
+  width: 90rem;
+  height: 64rem;
+  background-size: cover;
+  background-image: url(image/background.png);
+}
+.landing-page-hero nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.6rem 9.3rem;
+}
+nav .logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+}
+nav .navbar-nav {
+  display: flex;
+}
+nav .navbar-nav .active {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+nav .navbar-nav a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--main-color);
+  margin-right: 3.1rem;
+  margin-top: 0.3rem;
+  text-decoration: none;
+}
+nav .sign-up-button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  border: 2px solid #00000033;
+}
+.landing-page-hero section {
+}
+section .section-content-text {
+  margin-left: 24.5rem;
+  margin-bottom: 7.8rem;
+}
+section .section-content-button {
+}
+.section-content-text h1 {
+  width: 40.8rem;
+  height: 6.7rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin-top: 6.2rem;
+}
+.section-content-text p {
+  width: 34.5rem;
+  height: 4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--main-color);
+  text-align: center;
+  margin-top: 0.9rem;
+  margin-left: 3.1rem;
+}
+section .section-content-button {
+  margin-top: 2.5rem;
+  margin-left: 8.8rem;
+}
+section .section-content-button .explore {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.7rem 1.06rem;
+  border-radius: 6.2rem;
+  border: 1px solid #001aff;
+  background-color: #001aff;
+}
+section .section-content-button .how {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #001aff;
+  margin-left: 2.3rem;
+}
+section .card-wrapper {
+  margin-left: 9.3rem;
+}
+.card-wrapper {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.card-wrapper .featured-Jobs {
+  margin-bottom: 1rem;
+}
+.card-wrapper .many-of-card {
+  display: flex;
+}
+.many-of-card .card-blue {
+  margin-right: 1.8rem;
+}
+.many-of-card .card-white {
+  margin-right: 1.8rem;
+}
+.many-of-card .card-blue,
+.card-white {
+  width: 22.5rem;
+  height: 15.5rem;
+  border-radius: 0.5rem;
+}
+.many-of-card .card-blue {
+  background-color: #001aff;
+}
+.many-of-card .card-white {
+  background-color: #fff;
+}
+.card-blue img {
+  width: 3.1rem;
+  height: 3.1rem;
+}
+.card-blue .titel {
+  display: flex;
+  padding: 1.5rem;
+}
+.card-white .titel {
+  display: flex;
+  padding: 1.5rem;
+}
+.titel-text {
+  margin-left: 1.5rem;
+}
+.card-blue h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.card-blue p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+.card-blue .text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  width: 18.7rem;
+  height: 3.7rem;
+  margin-left: 1.5rem;
+}
+.card-white h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+}
+.card-white p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+.card-white .text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--main-color);
+  width: 19.3rem;
+  height: 3.7rem;
+  margin-left: 1.5rem;
+}
+.card-blue .wrapper-price {
+  display: flex;
+  padding: 1.5rem;
+}
+.card-blue .wrapper-price .titel-price {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  border: 1px solid black;
+  border-radius: 6.2rem;
+  padding: 0.3rem 0.9rem;
+}
+.card-blue .wrapper-price .price {
+  margin-top: 0.3rem;
+  margin-left: 7.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
+.card-white .wrapper-price {
+  display: flex;
+  padding: 1.5rem;
+}
+.card-white .wrapper-price .titel-price {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 6.2rem;
+  padding: 0.3rem 0.9rem;
+}
+.card-white .wrapper-price .price-facebook {
+  margin-top: 0.3rem;
+  margin-left: 6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+}
+.card-white .wrapper-price .price-vercel {
+  margin-top: 0.3rem;
+  margin-left: 3.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+}
